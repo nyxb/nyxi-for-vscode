@@ -1,6 +1,6 @@
 {
   "name": "nyxi-for-vscode",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "📦 This is an additional package from @nyxb/nyxi for Visual Studio Code.",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
