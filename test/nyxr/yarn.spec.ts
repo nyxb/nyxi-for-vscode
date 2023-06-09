@@ -1,10 +1,10 @@
 import { expect, test } from 'vitest'
-import { parseNr } from '../../src'
+import { parseNyxr } from '../../src'
 
 const agent = 'yarn'
 const _ = (arg: string, expected: string) => () => {
   expect(
-    parseNr(agent, arg.split(' ').filter(Boolean)),
+    parseNyxr(agent, arg.split(' ').filter(Boolean)),
   ).toBe(
     expected,
   )
